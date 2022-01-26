@@ -1,0 +1,65 @@
+/* The parent element */
+.container {
+  font-family: "Open Sans";
+  margin: 1em;
+  /* max-width: 500px; */
+}
+
+/* The header containing the site title */
+.site-title {
+  /* font-size: 3rem; */
+  /* color: gray; */
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+.site-title h6 {
+  margin: 0em;
+  font-size: 1em;
+}
+
+.site-title h1 {
+  margin: 0em;
+  font-size: 4em;
+}
+
+
+/* The flex container - the navigation bar and page content */
+.body-container {
+  display: grid;
+  grid-template-columns: [navigation] 15% [mainbody] 85%;
+}
+
+/* The navigation bar */
+.nav-links {
+  grid-column-start: navigation;
+  list-style: none; /* no list points */
+  padding-left: 0;  /* no empty space where list point would be*/
+  padding-right: 3em;
+}
+
+.nav-link-item {
+  padding-bottom: 1em;
+  /* padding-right: 2rem; */
+}
+
+.nav-link-text {
+  color: black;         /* link are black as is normal text */
+  text-decoration: none;  /* no underline */
+}
+
+.nav-link-text:hover {
+  /*
+    The text the mouse is hovering over is now red,
+    Could show red list point also  
+  */
+  color: crimson;
+}
+ /* The main body wrapper */
+.main-body {
+  grid-column-start: mainbody;
+}
+
+.heading {
+  margin-top: 0.25em;
+}

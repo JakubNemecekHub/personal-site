@@ -1,0 +1,13 @@
+.my-list li {
+    list-style-type: square;
+}
+
+/* .my-list li::marker {
+    color: red;
+    content: "\2022";
+    font-weight: bold;
+}
+
+.my-list p {
+    margin-left: 1em;
+} */
