@@ -48,13 +48,19 @@
   text-decoration: none;  /* no underline */
 }
 
+/*
+Link that you hover over will be crimson
+May be confused with active link -> use different colour?
+*/
 .nav-link-text:hover {
-  /*
-    The text the mouse is hovering over is now red,
-    Could show red list point also  
-  */
   color: crimson;
 }
+
+/* Active link stays crimson */
+.active {
+  color: crimson;
+}
+
  /* The main body wrapper */
 .main-body {
   grid-column-start: mainbody;
@@ -62,4 +68,7 @@
 
 .heading {
   margin-top: 0.25em;
+  color: crimson;
 }
+
+

@@ -4,7 +4,7 @@ import { myList } from './pages.module.css'
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="My Books">
+    <Layout>
       <p>The books are multiplying and one simply cannot keep up. A system to keep track of the unread, the finished and the not yet bought is sorely missing.</p>
       <p>An underlying database (either mongoDB, or my preferred SQL) with a simple data model. And on top of that a nice and tidy front-end with basic functionality of adding, editing and removing books.</p>
       <p>Might also use this space for a focus section on:</p>

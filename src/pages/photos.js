@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="My Photos">
+    <Layout>
       <p>At least those I got around to have developed.</p>
     </Layout>
   )

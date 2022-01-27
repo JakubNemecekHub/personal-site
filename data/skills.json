@@ -1,0 +1,25 @@
+[
+{
+    "title": "Microsoft Office",
+    "skills": ["Expert Excel", "Advanced VBA"]
+},
+{
+    "title": "Web development",
+    "skills": ["HTML", "CSS", "JavaScript", "Bit of React", "Bit of Gatsby"]
+},
+{
+    "title": "Other languages",
+    "skills": ["Python", "C++"]
+},
+{
+    "title": "Databases",
+    "skills": ["SQL (MySQL)", "MongoDB"]
+}
+]
+
+
+
+
+
+
+
