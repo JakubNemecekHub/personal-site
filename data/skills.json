@@ -1,19 +1,19 @@
 [
 {
     "title": "Microsoft Office",
-    "skills": ["Expert Excel", "Advanced VBA"]
+    "values": ["Expert Excel", "Advanced VBA"]
 },
 {
     "title": "Web development",
-    "skills": ["HTML", "CSS", "JavaScript", "Bit of React", "Bit of Gatsby"]
+    "values": ["HTML", "CSS", "JavaScript", "Bit of React", "Bit of Gatsby"]
 },
 {
     "title": "Other languages",
-    "skills": ["Python", "C++"]
+    "values": ["Python", "C++"]
 },
 {
     "title": "Databases",
-    "skills": ["SQL (MySQL)", "MongoDB"]
+    "values": ["SQL (MySQL)", "MongoDB"]
 }
 ]
 

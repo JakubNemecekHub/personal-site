@@ -9,4 +9,5 @@
 
 .skill-flex-item {
     flex-grow: 1;
+    /* max-width: 33%; */
 }

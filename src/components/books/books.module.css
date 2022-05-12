@@ -1,0 +1,17 @@
+/* The book list should be a nice and tidy flex container for the books */
+
+.book-list-style {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.book-style {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 1em;
+}
+

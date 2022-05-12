@@ -7,6 +7,7 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
       <p>Just fooling around with another futile enterprise.</p>
+      <p>Sooner, rather than later, I will need to add a pagination system to this here site.</p>
       <h2>My blog posts</h2>
       { /* Map all blog post files and show them. Should make a component for them.*/ }
       {

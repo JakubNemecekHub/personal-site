@@ -8,7 +8,6 @@ const AboutPage = ({ data }) => {
     <Layout>
       <p>Multiple, but very shallow.</p>
 
-      { /* Something more fancy using Flex */ }
       <MyListContainer data={data.allSkillsJson.edges} />
 
     </Layout>
@@ -21,7 +20,7 @@ export const query = graphql`
       edges {
         node {
           title
-          skills
+          values
         }
       }
     }

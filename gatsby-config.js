@@ -24,6 +24,15 @@ module.exports = {
         path: `${__dirname}/data`,
       }
     },
+    // PostreSQL
+    {
+      resolve: "gatsby-source-pg",
+      options: {
+        connectionString: "postgres://postgres:JuliDonut@localhost:5432/my_books",
+        schema: "public",
+        refetchInterval: 60, // Refetch data every 60 seconds
+      }
+    },
     // Fonts
     {
       resolve: "gatsby-plugin-google-fonts",

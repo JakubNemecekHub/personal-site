@@ -8,7 +8,7 @@ const MyListContainer = ({data}) => {
         {
         data.map((item, index) => (
             <div className={skillFlexItem} key={index}>
-                <MyList title={item.node.title} items={item.node.skills} />
+                <MyList title={item.node.title} items={item.node.values} />
             </div>
         ))
         }

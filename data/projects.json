@@ -1,0 +1,22 @@
+[
+    {
+        "title": "GatsbyJS site",
+        "values": ["The site you are now browsing, which is my personal site.", "Showing Skills", "Projects", "etc."]
+    },
+    {
+        "title": "Django backend",
+        "values": ["API to manage book database", "What else?"]
+    },
+    {
+        "title": "Juli player",
+        "values": ["Simple and basic music player", "Python app", "Using TkInter", "Multiplatform"]
+    },
+    {
+        "title": "Ebooks",
+        "values": ["Various eBooks created using the Standard ebooks toolsets. I would like to find another way of creating eBooks.", "Agaton Sax", "Solar Pons", "A. C. Smith"]
+    },
+    {
+        "title": "Python ciphers",
+        "values": ["Various ciphers written in Python", "Based on https://inventwithpython.com/cracking/" ,"Nice use-case to test various ways of testing python scripts. (unittest, pytest, and what more?)", "substitution, Ceasar, affine, Vignere", "Could typer to turn it into a CLI app", "First step in my return to this project should be a tidy project folder structure"]
+    }
+]
